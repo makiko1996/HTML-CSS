@@ -1,19 +1,15 @@
-.boxes {
-  width: 600px;
-  background-color: yellow;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.box1 {
-  width: 150px;
-  height: 400px;
-  background-color: orange;
+.position {
+  position: absolute;
+  top: 100px;
+  right: 40px;
 }
 
-.box2 {
-  width: 250px;
-  height: 400px;
-  background-color: red;
+.fa {
+  font-size: 32px;
 }
